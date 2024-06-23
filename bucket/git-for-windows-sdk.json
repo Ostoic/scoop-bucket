@@ -1,0 +1,13 @@
+{
+    "version": "1.0.8",
+    "description": "Git for Windows SDK",
+    "homepage": "https://github.com/git-for-windows/build-extra",
+    "architecture": {
+        "64bit": {
+            "url": "https://github.com/git-for-windows/build-extra/releases/download/git-sdk-1.0.8/git-sdk-installer-1.0.8-64.7z.exe"
+        },
+        "32bit": {
+            "url": "https://github.com/git-for-windows/build-extra/releases/download/git-sdk-1.0.8/git-sdk-installer-1.0.8-32.7z.exe"
+        }
+    }
+}
