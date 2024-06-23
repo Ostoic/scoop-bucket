@@ -2,6 +2,7 @@
     "version": "1.0.8",
     "description": "Git for Windows SDK",
     "homepage": "https://github.com/git-for-windows/build-extra",
+		"license": "GPL v2",
     "architecture": {
         "64bit": {
             "url": "https://github.com/git-for-windows/build-extra/releases/download/git-sdk-1.0.8/git-sdk-installer-1.0.8-64.7z.exe",
