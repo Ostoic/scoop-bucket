@@ -1,0 +1,19 @@
+
+{
+    "version": "1.3.0-alpha",
+    "description": "Cross-platform music production software.",
+    "homepage": "https://lmms.io/",
+    "license": "GPL-2.0-or-later",
+    "architecture": {
+        "64bit": {
+            "url": "https://lmms.io/download/artifact/3786462322",
+            "hash": "346db5e8ac29ab12b539512f7661d84f166ca107dfd2a52ff528c62be89df840"
+        }
+    },
+    "shortcuts": [
+        [
+            "lmms.exe",
+            "LMMS"
+        ]
+    ]
+}
