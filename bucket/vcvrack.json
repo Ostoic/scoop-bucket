@@ -1,0 +1,15 @@
+
+
+{
+    "version": "2.6.4",
+    "homepage": "https://vcvrack.com/",
+    "license": "GPL-3.0-or-later",
+    "url": "https://vcvrack.com/downloads/RackFree-2.6.4-win-x64.exe#dl.7z",
+    "hash": "3b5be116598e6b50cb178b0ac2315061fe75f444a5472b5506281223e174726e",
+    "shortcuts": [
+        [
+            "Rack.exe",
+            "Rack"
+        ]
+    ]
+}
