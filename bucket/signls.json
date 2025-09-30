@@ -1,0 +1,13 @@
+{
+    "version": "0.7.1",
+    "homepage": "https://empr.cl/signls/",
+    "license": "MIT",
+    "url": "https://github.com/emprcl/signls/releases/download/v0.7.1/signls_v0.7.1_Windows.zip",
+    "hash": "d2e8a017510a6c5696c2f359adf2786de668bec4f545ab71e5d8dd43e4f0355f",
+    "shortcuts": [
+        [
+            "signls.exe",
+            "signls"
+        ]
+    ]
+}
