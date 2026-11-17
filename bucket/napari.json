@@ -5,10 +5,13 @@
     "license": "BSD-3-Clause",
     "url": "https://github.com/napari/napari/releases/download/v0.10.0/napari-0.10.0-Windows-x86_64.exe#/napari.exe",
     "hash": "14ea761a52e2b7eaf8631a582cc0281b72ee614f72790025fe87e7b80c3fd46b",
-    "bin": "napari.exe",
+    "installer": {
+        "script": "Start-Process \"$dir\\napari.exe\" -ArgumentList '/S', \"/D=$dir\" -Wait"
+    },
+    "bin": "envs\\napari-0.10.0\\Library\\bin\\napari.exe",
     "shortcuts": [
         [
-            "napari.exe",
+            "envs\\napari-0.10.0\\Library\\bin\\napari.exe",
             "napari"
         ]
     ],
