@@ -19,6 +19,13 @@
         "github": "https://github.com/napari/napari"
     },
     "autoupdate": {
-        "url": "https://github.com/napari/napari/releases/download/v$version/napari-$version-Windows-x86_64.exe#/napari.exe"
+        "url": "https://github.com/napari/napari/releases/download/v$version/napari-$version-Windows-x86_64.exe#/napari.exe",
+        "bin": "envs\\napari-$version\\Library\\bin\\napari.exe",
+        "shortcuts": [
+            [
+                "envs\\napari-$version\\Library\\bin\\napari.exe",
+                "napari"
+            ]
+        ]
     }
 }
